@@ -1,7 +1,7 @@
-# spring-boot-ssl
+## Spring-boot-ssl
 This app configure with ssl/tls configuration.
 
-# Enable HTTPS in spring boot app
+## Enable HTTPS in spring boot app
      keytool -genkey -alias tomcat (this command available in already java installed systm)
      -storetype PKCS12 -keyalg RSA -keysize 2048
      -keystore keystore.p12 -validity 3650
@@ -22,11 +22,11 @@ This app configure with ssl/tls configuration.
      [Unknown]:
      Is CN=Unknown, OU=Unknown, O=Unknown, L=Unknown, ST=Unknown, C=Unknown correct?
      [no]: yes
-# Update application.properties file
+## Update application.properties file
     server.port: 8443
     server.ssl.key-store: keystore.p12
     server.ssl.key-store-password: mypassword
     server.ssl.keyStoreType: PKCS12
     server.ssl.keyAlias: tomcat
-# For enable HTTPS in spring boot 
-   * [https://www.drissamri.be/blog/java/enable-https-in-spring-boot/]
+## For enable HTTPS in spring boot 
+   - [https://www.drissamri.be/blog/java/enable-https-in-spring-boot/]
