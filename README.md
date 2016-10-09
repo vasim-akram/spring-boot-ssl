@@ -29,4 +29,4 @@ This app configure with ssl/tls configuration.
     server.ssl.keyStoreType: PKCS12
     server.ssl.keyAlias: tomcat
 # For enable HTTPS in spring boot 
-    https://www.drissamri.be/blog/java/enable-https-in-spring-boot/
+   * [https://www.drissamri.be/blog/java/enable-https-in-spring-boot/]
